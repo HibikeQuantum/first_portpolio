@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Creative v5.1.8 (https://startbootstrap.com/template-overviews/creative)
+ * Start Bootstrap - KangTaehun's develope page v5.1.8 (https://startbootstrap.com/template-overviews/creative)
  * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/BlackrockDigital/kangtaehun/blob/master/LICENSE)
  */
 
 /*!
@@ -9729,4 +9729,593 @@ header.masthead h1 {
 
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+/*20191025*/
+
+a {
+  text-decoration: none;
+  color: #00c6ff;
+}
+
+.lists {
+  display: flex;
+  flex-direction: row;
+  flex-wrap : wrap;
+}
+
+.list-container {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex: 1;
+}
+
+.content {
+  min-width: 260px;
+  position: relative;
+  float: left;
+  font-size: 12px;
+  line-height: 2em;
+  /*padding: 30px 0 30px;*/
+  display: flex;
+  flex-direction: column;
+  flex: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col {
+  width: 280px;
+}
+
+* {
+  box-sizing: border-box
+}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+}
+
+
+#SkillBox {
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+  width: 95%;
+  height: auto;
+  margin: 5px auto;
+  background-color: #fff;
+/ / border: 1 px solid #cdcdcd;
+  padding: 10px;
+  border-radius: 20px;
+  -o-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+#SkillBox img {
+  width: 20%;
+  height: 10%;
+  margin: auto 35%;
+  padding: 10px;
+}
+
+.SkillBar {
+  width: 90%;
+  height: 50px;
+  position: relative;
+  background: rgba(17, 17, 17, .3);
+  margin: 5px auto;
+}
+
+.Skill-js {
+  animation: Animate-js 5s;
+  -webkit-animation: Animate-js 5s;
+  -moz-animation: Animate-js 5s;
+  -o-animation: Animate-js 5s;
+  width: 90%;
+  height: 50px;
+  position: absolute;
+  background-color: #99856d;
+}
+
+@keyframes Animate-js {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%
+  }
+}
+
+@-webkit-keyframes Animate-js {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%
+  }
+}
+
+@-moz-keyframes Animate-js {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%
+  }
+}
+
+@-o-keyframes Animate-js {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%
+  }
+}
+
+#Skill-HTML {
+  width: 60%;
+  animation: Animate-HTML 4s;
+  -webkit-animation: Animate-HTML 4s;
+  -moz-animation: Animate-HTML 4s;
+  -o-animation: Animate-HTML 4s;
+  height: 50px;
+  position: absolute;
+  background-color: #ea8564;
+}
+
+@keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%
+  }
+}
+
+@-webkit-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%
+  }
+}
+
+@-moz-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%
+  }
+}
+
+@-o-keyframes Animate-HTML {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%
+  }
+}
+
+#Skill-CSS {
+  animation: Animate-CSS 5s;
+  -webkit-animation: Animate-CSS 5s;
+  -moz-animation: Animate-CSS 5s;
+  -o-animation: Animate-CSS 5s;
+  width: 60%;
+  height: 50px;
+  position: absolute;
+  background-color: #55a69f;
+}
+
+@keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%
+  }
+}
+
+@-webkit-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%
+  }
+}
+
+@-moz-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%
+  }
+}
+
+@-o-keyframes Animate-CSS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%
+  }
+}
+
+
+
+#Skill-React {
+  animation: Animate-React 4s;
+  -webkit-animation: Animate-React 4s;
+  -moz-animation: Animate-React 4s;
+  -o-animation: Animate-React 4s;
+  width: 80%;
+  height: 50px;
+  position: absolute;
+  background-color: #c44e45;
+}
+
+@keyframes Animate-React {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%
+  }
+}
+
+@-webkit-keyframes Animate-React {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%
+  }
+}
+
+@-moz-keyframes Animate-React {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%
+  }
+}
+
+@-o-keyframes Animate-React {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%
+  }
+}
+
+#Skill-Nodejs {
+  animation: Animate-Nodejs 4s;
+  -webkit-animation: Animate-Nodejs 4s;
+  -moz-animation: Animate-Nodejs 4s;
+  -o-animation: Animate-Nodejs 4s;
+  width: 90%;
+  height: 50px;
+  position: absolute;
+  background-color: #5aa669;
+}
+
+@keyframes Animate-Nodejs {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%
+  }
+}
+
+@-webkit-keyframes Animate-Nodejs {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%
+  }
+}
+
+@-moz-keyframes Animate-Nodejs {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%
+  }
+}
+
+@-o-keyframes Animate-Nodejs {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 90%
+  }
+}
+
+#Skill-Python {
+  animation: Animate-Python 4s;
+  -webkit-animation: Animate-Python 4s;
+  -moz-animation: Animate-Python 4s;
+  -o-animation: Animate-Python 4s;
+  width: 60%;
+  height: 50px;
+  position: absolute;
+  background-color: #970cc1;
+}
+
+@keyframes Animate-Python {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%
+  }
+}
+
+@-webkit-keyframes Animate-Python {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%
+  }
+}
+
+@-moz-keyframes Animate-Python {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%
+  }
+}
+
+@-o-keyframes Animate-Python {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%
+  }
+}
+
+#Skill-AWS {
+  animation: Animate-AWS 4s;
+  -webkit-animation: Animate-AWS 4s;
+  -moz-animation: Animate-AWS 4s;
+  -o-animation: Animate-AWS 4s;
+  width: 60%;
+  height: 50px;
+  position: absolute;
+  background-color: #8e930c;
+}
+
+@keyframes Animate-AWS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%
+  }
+}
+
+@-webkit-keyframes Animate-AWS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%
+  }
+}
+
+@-moz-keyframes Animate-AWS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%
+  }
+}
+
+@-o-keyframes Animate-AWS {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%
+  }
+}
+
+#Skill-MySQL {
+  animation: Animate-MySQL 4s;
+  -webkit-animation: Animate-MySQL 4s;
+  -moz-animation: Animate-MySQL 4s;
+  -o-animation: Animate-MySQL 4s;
+  width: 60%;
+  height: 50px;
+  position: absolute;
+  background-color: #5A69A6;
+}
+
+@keyframes Animate-MySQL {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%
+  }
+}
+
+@-webkit-keyframes Animate-MySQL {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%
+  }
+}
+
+@-moz-keyframes Animate-MySQL {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%
+  }
+}
+
+@-o-keyframes Animate-MySQL {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%
+  }
+}
+
+#Skill-MongoDB {
+  animation: Animate-MongoDB 4s;
+  -webkit-animation: Animate-MongoDB 4s;
+  -moz-animation: Animate-MongoDB 4s;
+  -o-animation: Animate-MongoDB 4s;
+  width: 60%;
+  height: 50px;
+  position: absolute;
+  background-color: #23b1db;
+}
+
+@keyframes Animate-MongoDB {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%
+  }
+}
+
+@-webkit-keyframes Animate-MongoDB {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%
+  }
+}
+
+@-moz-keyframes Animate-MongoDB {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 60%
+  }
+}
+
+@-o-keyframes Animate-MongoDB {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 80%
+  }
+}
+
+#Skill-VBNET {
+  animation: Animate-VBNET 4s;
+  -webkit-animation: Animate-VBNET 4s;
+  -moz-animation: Animate-VBNET 4s;
+  -o-animation: Animate-VBNET 4s;
+  width: 35%;
+  height: 50px;
+  position: absolute;
+  background-color: #f8a51e;
+}
+
+@keyframes Animate-VBNET {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 35%
+  }
+}
+
+@-webkit-keyframes Animate-VBNET {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 35%
+  }
+}
+
+@-moz-keyframes Animate-VBNET {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 35%
+  }
+}
+
+@-o-keyframes Animate-VBNET {
+  from {
+    width: 10px;
+  }
+  to {
+    width: 35%
+  }
+}
+
+.Skill-Area {
+  z-index: 1;
+  float: left;
+/ / position: absolute;
+  margin-top: 15px;
+  margin-left: 15px;
+  text-shadow: none;
+  color: #fff;
+/ / font-family: Lato-Regular, sans-serif;
+  font-size: 18px;
+}
+.PercentText {
+  z-index: 1;
+  position: absolute;
+  padding-right: 15px;
+  margin-top: 15px;
+  float: right;
+  text-shadow: none;
+  color: #fff;
+  font-family: Lato-Regular, sans-serif;
+  font-size: 1.2em;
+}
+.center-margin {
+  margin-left: auto;
+  margin-right: auto;
+  flex:1;
+  display:flex;
+  text-align: center;
+  width:fit-content;
+}
+.button-3 {
+  margin-top: 1em;
+}
+
+.page-section-small {
+  padding: 4rem 0 4rem 0;
 }
